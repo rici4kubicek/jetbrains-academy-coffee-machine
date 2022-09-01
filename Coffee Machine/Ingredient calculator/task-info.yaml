@@ -93,7 +93,10 @@ files:
     if __name__ == '__main__':
         CoffeeMachineTest().run_tests()
   learner_created: false
-feedback_link: https://hyperskill.org/projects/220/stages/1102/implement#comment
+feedback_link: https://hyperskill.org/learn/step/17037#comment
 check_profile: hyperskill_node_javascript
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 01 Sep 2022 18:34:41 UTC
 record: -1
