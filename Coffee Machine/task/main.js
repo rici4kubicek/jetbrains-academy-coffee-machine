@@ -3,8 +3,26 @@
 // You will need this in the following stages
 const input = require('sync-input')
 
-//console.log('Write how many cups of coffee you will need:\n');
+let water = Number(input('Write how many ml of water the coffee machine has:\n'));
+let milk = Number(input('Write how many ml of milk the coffee machine has:\n'));
+let coffee = Number(input('Write how many grams of coffee beans the coffee machine has:\n'));
 let cups = Number(input('Write how many cups of coffee you will need:\n'));
+
+let availableCups = 0;
+
+if (cups * 200 >= water) {
+    availableCups = (water / 200).toFixed();
+    if (cups * 50 >= milk) {
+
+        if (cups * 15 >= coffee) {
+
+        }
+    }
+}
+
+
+//console.log('Write how many cups of coffee you will need:\n');
+
 console.log('For ' + cups + ' cups of coffee you will need:');
 console.log('' + 200 * cups + ' ml of water');
 console.log('' + 50 * cups + ' ml of milk');
